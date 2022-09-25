@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    background-color: rgb(31, 31, 32);
+}
+
+.barra span{
+    color: rgb(7, 130, 244);
+}
+
+.barra span{
+    color: rgb(7, 130, 244);
+}
+
+h1 {
+    color: white
+}
+
+.navbar-nav a:hover{
+    background-color: rgb(7, 125, 244);
+    transition: ease-in 0.4s;
+    border-radius: 20px;
+}
+
+.navbar-nav{
+    width: 50%;
+    justify-content: space-around;
+}
+
+.acerca{
+    /* width: 100vh; */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acerca h2{
+    font-size: 50px;
+    text-align: center; 
+}
+
+body{
+    background-color: rgb(31, 31, 32);
+    height: 2000px;
+    background-size: cover;
+}
+
+.fotoInicial {
+    width: 400px;
+    border-radius: 100%;
+    border: 7px solid rgb(7, 125, 244);
+    margin-left: 60px;
+    margin-right: auto;
+    display: block;
+}
+
+.main{
+    color: white;
+    margin: 0 auto;
+    width: 80vh;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    margin-top: 10px;
+}
+
+.btn{
+ cursor: pointer;
+}
+
+p{
+    color: white;
+}
+
+h2{
+    color: rgb(7, 125, 244); 
+
+}
+
+.portafolio{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h5{
+    color: rgb(7, 125, 244);
+}
+
+.contacto{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+    margin-top: 50px;
+}
+
+h4{
+    color: rgb(7, 125, 244) ;
+}
+
+.separator{
+    margin-top: 20% !important;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100 vh;
+    height: 200px;
+    background-color: rgb(7, 125, 244);
+}
+
+.footer-content h2{
+    color: white;
+    font-size: 3m;;
+}
+
+.footer-content h5, i{
+    color: white;
+    font-size: 1.5em;
+}
+
+.social-network{
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
